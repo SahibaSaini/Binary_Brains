@@ -21,7 +21,7 @@ def main():
         # set up the game loop
 
         words = ["hangman", "chairs", "backpack", "bodywash", "clothing",
-                 "computer", "python", "program", "glasses", "sweatshirt",
+                 "computer", "program", "glasses", "sweatshirt",
                  "sweatpants", "mattress", "friends", "clocks", "biology",
                  "algebra", "suitcase", "knives", "ninjas", "shampoo"
                  ]
