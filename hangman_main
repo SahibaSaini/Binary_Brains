@@ -20,12 +20,7 @@ def main():
     while play_again:
         # set up the game loop
 
-        words = ["hangman", "chairs", "backpack", "bodywash", "clothing",
-                 "computer", "program", "glasses", "sweatshirt",
-                 "sweatpants", "mattress", "friends", "clocks", "biology",
-                 "algebra", "suitcase", "knives", "ninjas", "shampoo"
-                 ]
-
+        words = ["hangman", "chairs", "backpack", "bodywash", "clothing", "computer", "program", "glasses", "sweatshirt","sweatpants", "mattress", "friends", "clocks", "biology", "algebra", "suitcase", "knives", "ninjas", "shampoo","awkward","bagpipes","bandwagon","banjo","bayoubee","keeper","blitz","blizzard","boggle","bookworm","boxcar","boxful","buffoon","buxom","buzzard","buzzing","buzzwords","caliph","cobweb","cockiness","croquet","crypt","curacao","cycle","daiquiri","dirndl","disavow","dizzy","duplex","dwarves","embezzle","equip","espionage","euouae","exodus","faking","fishhook","fixable","flapjack","jackpot","jaundice","jawbreaker","jaywalk","jazziest" ]
         chosen_word = random.choice(words).lower()
         player_guess = None # will hold the players guess
         guessed_letters = [] # a list of letters guessed so far
